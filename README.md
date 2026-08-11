@@ -26,18 +26,20 @@ A multi-page personal portfolio website built with clean, accessible, and semant
    git clone [https://github.com/pilotjuen-hash/iyf-s11-week-01-pilotjuen-hash.git](https://github.com/pilotjuen-hash/iyf-s11-week-01-pilotjuen-hash.git)
 
 ## Lessons Learned
-    How to structure clean semantic markup using HTML5 landmarks instead of ungeneric <div> elements.
+How to structure clean semantic markup using HTML5 landmarks instead of ungeneric <div> elements.
 
-    How to perform accessibility audits using DevTools/Lighthouse and remediate screen reader accessibility errors.
+How to perform accessibility audits using DevTools/Lighthouse and remediate screen reader accessibility errors.
 
-    Version control best practices using Git branching, clean commit messages, and deployment via GitHub Pages.
+Version control best practices using Git branching, clean commit messages, and deployment via GitHub Pages.
 
 ## Challenges Faced
-    Pathing and Navigation: Ensuring relative file links (about.html, projects.html) worked smoothly across local environments and live GitHub Pages.
+Pathing and Navigation: Ensuring relative file links (about.html, projects.html) worked smoothly across local environments and live GitHub Pages.
 
-    Git Push Refspecs: Resolving combined command syntax errors in the terminal to maintain a clean git history.
+Git Push Refspecs: Resolving combined command syntax errors in the terminal to maintain a clean git history.
 
-    Form Validation: Explicitly linking form controls with <label for=""> and input id attributes to meet high accessibility contrast and interaction standards.
+Form Validation: Explicitly linking form controls with <label for=""> and input id attributes to meet high accessibility contrast and interaction standards.
 
-## Live Demo (if deployed)
-    Live Site: View Portfolio Live Demo
+## Live Demo
+Live Site: View Portfolio Live Demo
+
+Technical Article: Published Dev.to Article
