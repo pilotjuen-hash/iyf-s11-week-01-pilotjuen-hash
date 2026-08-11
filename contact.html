@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Me</h1>
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <p>
+                    <label for="full-name">Full Name *</label><br>
+                    <input type="text" id="full-name" name="full_name" placeholder="Miguel Ouma" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address *</label><br>
+                    <input type="email" id="email" name="email" placeholder="migueldaltone@gmail.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number (Optional)</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+254790847672">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message Details</legend>
+
+                <p>
+                    <label for="subject">Subject *</label><br>
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="project">Project Collaboration</option>
+                        <option value="support">Support</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message (Min. 50 characters) *</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" minlength="50" placeholder="Write your message here (minimum 50 characters)..." required></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to newsletter</label>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+
+        <section>
+            <h2>Connect with Me</h2>
+            <ul>
+                <li><a href="https://github.com/pilotjuen-hash" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+            <p>Location: Nairobi, Kenya (UTC+3)</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Miguel Ouma</p>
+    </footer>
+
+</body>
+</html>
